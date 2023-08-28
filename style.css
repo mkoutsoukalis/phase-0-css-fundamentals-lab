@@ -3,3 +3,56 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Update the header */
+header {
+  text-align: center; 
+}
+/* Center our image */
+img {
+  display: block;
+  margin: 0 auto; 
+}
+/* Navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+  text-decoration: none;
+  color: white; 
+}
+nav a:hover {
+  background-color: darkgrey;
+}
+/* Featured Property */
+#featured-property {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#featured-property p {
+  width: 800px;
+  margin: 15px 0;
+}
+/* Update the text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+}
+/* Make our #details section horizontal */
+#details div {
+  float: left; 
+  width: 25%;
+  box-sizing: border-box; 
+  padding: 10px;
+}
+/* Finishing touch for the <div>s at the bottom */
+#details {
+  display: flex;
+  justify-content: space-between;
+}
+#details > div {
+  background-color: red;
+  text-align: center;
+  width: 25%;
+  padding: 20px;
+}
